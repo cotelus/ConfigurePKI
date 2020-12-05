@@ -136,15 +136,15 @@ Se genera la clave privada para el servidor https y la petición de firma:
 
 ![](Docs/Configura\_PKI.021.png)
 
-![](Configura\_PKI.022.png)
+![](Docs/Configura\_PKI.022.png)
 
 Mediante scp se lleva el archivo *root/auth/csr/servidor\_https.csr.pem* a la CA subordinada para  que  lo  firme.  Además  he  copiado  de  forma  temporal  el  archivo  al  directorio /home/cotelo/ para que el usuario que hace el scp tenga acceso. 
 
-![](Configura\_PKI.023.png)
+![](Docs/Configura\_PKI.023.png)
 
-Ahora se firma la petición desde la CA subordinada. ![](Configura\_PKI.001.png)
+Ahora se firma la petición desde la CA subordinada.
 
-![](Configura\_PKI.024.png)
+![](Docs/Configura\_PKI.024.png)
 
 Finalmente, se envía desde la CA subordinada al servidor HTTPS el certificado firmado. 
 
